@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h4>Here it is: {{ msg2 }}</h4>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -35,7 +36,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+    msg2: String
   }
 }
 </script>
